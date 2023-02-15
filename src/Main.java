@@ -11,8 +11,9 @@ public class Main {
             int c = calc.devide.apply(a, b);
             calc.println.accept(c);
         } else {
-            System.out.println("Деление на 0 невозможно");
             int c = Integer.MIN_VALUE;
+            System.out.println("Деление на 0 невозможно");
+            System.out.println(c);
         }
     }
 }
